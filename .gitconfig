@@ -1,0 +1,16 @@
+[user]
+	email = roji@roji.org
+	name = Shay Rojansky
+[pager]
+	branch = false
+        tag = false
+[diff]
+	wsErrorHighlight = all
+
+[core]
+;        pager = delta --theme='GitHub'
+;        pager = delta --plus-color="#012800" --minus-color="#340001" --theme='Monokai Extended'
+;        pager = delta --plus-color="#012800" --minus-color="#340001"
+
+[interactive]
+;        diffFilter = delta --color-only
