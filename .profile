@@ -27,7 +27,3 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 . .environment
-
-export PATH="$HOME/.cargo/bin:$PATH"
-
-export EDITOR=vim
