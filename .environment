@@ -5,7 +5,8 @@ export Test__SqlServer__DefaultConnection="Server=localhost;Database=test;User=S
 export DeveloperBuild=true
 
 export EDITOR=vim
-export PATH="$HOME/bin:$HOME/.dotnet:$PATH:/opt/mssql-tools/bin:$HOME/gems/bin:$HOME/.cargo/bin"
+export DOTNET_ROOT="$HOME/.dotnet"
+export PATH="$HOME/bin:$HOME/.dotnet:$HOME/.dotnet/tools:$PATH:/opt/mssql-tools/bin:$HOME/gems/bin:$HOME/.cargo/bin"
 
 # Necessary for zsh-autosuggestions to work under tmux
 export TERM=xterm-256color
