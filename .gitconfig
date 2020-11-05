@@ -1,6 +1,7 @@
 [user]
 	email = roji@roji.org
 	name = Shay Rojansky
+	signingkey = 20CEA609A91F7321
 [pager]
 	branch = false
         tag = false
