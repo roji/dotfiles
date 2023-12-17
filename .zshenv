@@ -20,5 +20,7 @@ export GEM_HOME="$HOME/gems"
 # GPG for git
 export GPG_TTY=$(tty)
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Make EF Core test infrastructure update SQL baselines for failing tests
 # export EF_TEST_REWRITE_BASELINES=1
